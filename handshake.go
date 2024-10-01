@@ -14,9 +14,9 @@ import (
 	"go.mau.fi/libsignal/ecc"
 	"google.golang.org/protobuf/proto"
 
-	waProto "wsapp/binary/proto"
-	"wsapp/socket"
-	"wsapp/util/keys"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	"github.com/snaril/wsapp/socket"
+	"github.com/snaril/wsapp/util/keys"
 )
 
 const NoiseHandshakeResponseTimeout = 20 * time.Second

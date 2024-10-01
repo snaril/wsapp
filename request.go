@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	waBinary "wsapp/binary"
-	"wsapp/types"
+	waBinary "github.com/snaril/wsapp/binary"
+	"github.com/snaril/wsapp/types"
 )
 
 func (cli *Client) generateRequestID() string {

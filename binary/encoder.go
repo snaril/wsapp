@@ -5,8 +5,8 @@ import (
 	"math"
 	"strconv"
 
-	"wsapp/binary/token"
-	"wsapp/types"
+	"github.com/snaril/wsapp/binary/token"
+	"github.com/snaril/wsapp/types"
 )
 
 type binaryEncoder struct {

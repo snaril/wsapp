@@ -1,10 +1,10 @@
 package waMsgApplication
 
 import (
-	"wsapp/proto/armadilloutil"
-	"wsapp/proto/waArmadilloApplication"
-	"wsapp/proto/waConsumerApplication"
-	"wsapp/proto/waMultiDevice"
+	"github.com/snaril/wsapp/proto/armadilloutil"
+	"github.com/snaril/wsapp/proto/waArmadilloApplication"
+	"github.com/snaril/wsapp/proto/waConsumerApplication"
+	"github.com/snaril/wsapp/proto/waMultiDevice"
 )
 
 const (

@@ -13,7 +13,7 @@ package socket
 import (
 	"errors"
 
-	"wsapp/binary/token"
+	"github.com/snaril/wsapp/binary/token"
 )
 
 const (

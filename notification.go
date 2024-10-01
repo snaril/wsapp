@@ -12,12 +12,12 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"wsapp/appstate"
-	waBinary "wsapp/binary"
-	waProto "wsapp/binary/proto"
-	"wsapp/store"
-	"wsapp/types"
-	"wsapp/types/events"
+	"github.com/snaril/wsapp/appstate"
+	waBinary "github.com/snaril/wsapp/binary"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	"github.com/snaril/wsapp/store"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
 )
 
 func (cli *Client) handleEncryptNotification(node *waBinary.Node) {

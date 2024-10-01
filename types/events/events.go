@@ -12,14 +12,14 @@ import (
 	"strconv"
 	"time"
 
-	waBinary "wsapp/binary"
-	waProto "wsapp/binary/proto"
-	armadillo "wsapp/proto"
-	"wsapp/proto/waArmadilloApplication"
-	"wsapp/proto/waConsumerApplication"
-	"wsapp/proto/waMsgApplication"
-	"wsapp/proto/waMsgTransport"
-	"wsapp/types"
+	waBinary "github.com/snaril/wsapp/binary"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	armadillo "github.com/snaril/wsapp/proto"
+	"github.com/snaril/wsapp/proto/waArmadilloApplication"
+	"github.com/snaril/wsapp/proto/waConsumerApplication"
+	"github.com/snaril/wsapp/proto/waMsgApplication"
+	"github.com/snaril/wsapp/proto/waMsgTransport"
+	"github.com/snaril/wsapp/types"
 )
 
 // QR is emitted after connecting when there's no session data in the device store.

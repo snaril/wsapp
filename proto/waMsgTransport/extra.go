@@ -1,8 +1,8 @@
 package waMsgTransport
 
 import (
-	"wsapp/proto/armadilloutil"
-	"wsapp/proto/waMsgApplication"
+	"github.com/snaril/wsapp/proto/armadilloutil"
+	"github.com/snaril/wsapp/proto/waMsgApplication"
 )
 
 const (

@@ -9,9 +9,9 @@ package events
 import (
 	"time"
 
-	"wsapp/appstate"
-	waProto "wsapp/binary/proto"
-	"wsapp/types"
+	"github.com/snaril/wsapp/appstate"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	"github.com/snaril/wsapp/types"
 )
 
 // Contact is emitted when an entry in the user's contact list is modified from another device.

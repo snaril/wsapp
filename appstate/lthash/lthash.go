@@ -13,7 +13,7 @@ package lthash
 import (
 	"encoding/binary"
 
-	"wsapp/util/hkdfutil"
+	"github.com/snaril/wsapp/util/hkdfutil"
 )
 
 type LTHash struct {

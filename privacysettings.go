@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
-	waBinary "wsapp/binary"
-	"wsapp/types"
-	"wsapp/types/events"
+	waBinary "github.com/snaril/wsapp/binary"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
 )
 
 // TryFetchPrivacySettings will fetch the user's privacy settings, either from the in-memory cache or from the server.

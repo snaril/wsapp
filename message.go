@@ -16,7 +16,7 @@ import (
 	"runtime/debug"
 	"time"
 
-	"wsapp/proto/waE2E"
+	"github.com/snaril/wsapp/proto/waE2E"
 
 	"go.mau.fi/libsignal/groups"
 	"go.mau.fi/libsignal/protocol"
@@ -25,12 +25,12 @@ import (
 	"go.mau.fi/util/random"
 	"google.golang.org/protobuf/proto"
 
-	"wsapp/appstate"
-	waBinary "wsapp/binary"
-	waProto "wsapp/binary/proto"
-	"wsapp/store"
-	"wsapp/types"
-	"wsapp/types/events"
+	"github.com/snaril/wsapp/appstate"
+	waBinary "github.com/snaril/wsapp/binary"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	"github.com/snaril/wsapp/store"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
 )
 
 var pbSerializer = store.SignalProtobufSerializer

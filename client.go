@@ -23,15 +23,15 @@ import (
 	"go.mau.fi/util/random"
 	"golang.org/x/net/proxy"
 
-	"wsapp/appstate"
-	waBinary "wsapp/binary"
-	waProto "wsapp/binary/proto"
-	"wsapp/socket"
-	"wsapp/store"
-	"wsapp/types"
-	"wsapp/types/events"
-	"wsapp/util/keys"
-	waLog "wsapp/util/log"
+	"github.com/snaril/wsapp/appstate"
+	waBinary "github.com/snaril/wsapp/binary"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	"github.com/snaril/wsapp/socket"
+	"github.com/snaril/wsapp/store"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
+	"github.com/snaril/wsapp/util/keys"
+	waLog "github.com/snaril/wsapp/util/log"
 )
 
 // EventHandler is a function that can handle events from WhatsApp.

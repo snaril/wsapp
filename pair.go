@@ -17,11 +17,11 @@ import (
 	"go.mau.fi/libsignal/ecc"
 	"google.golang.org/protobuf/proto"
 
-	waBinary "wsapp/binary"
-	waProto "wsapp/binary/proto"
-	"wsapp/types"
-	"wsapp/types/events"
-	"wsapp/util/keys"
+	waBinary "github.com/snaril/wsapp/binary"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
+	"github.com/snaril/wsapp/util/keys"
 )
 
 func (cli *Client) handleIQ(node *waBinary.Node) {

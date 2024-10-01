@@ -11,17 +11,17 @@ import (
 	"fmt"
 	"time"
 
-	"wsapp/proto/waCommon"
-	"wsapp/proto/waE2E"
+	"github.com/snaril/wsapp/proto/waCommon"
+	"github.com/snaril/wsapp/proto/waE2E"
 
 	"go.mau.fi/util/random"
 	"google.golang.org/protobuf/proto"
 
-	waProto "wsapp/binary/proto"
-	"wsapp/types"
-	"wsapp/types/events"
-	"wsapp/util/gcmutil"
-	"wsapp/util/hkdfutil"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
+	"github.com/snaril/wsapp/util/gcmutil"
+	"github.com/snaril/wsapp/util/hkdfutil"
 )
 
 type MsgSecretType string

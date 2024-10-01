@@ -7,9 +7,9 @@
 package whatsmeow
 
 import (
-	waBinary "wsapp/binary"
-	"wsapp/types"
-	"wsapp/types/events"
+	waBinary "github.com/snaril/wsapp/binary"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
 )
 
 func (cli *Client) handleCallEvent(node *waBinary.Node) {

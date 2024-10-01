@@ -13,12 +13,12 @@ import (
 	"fmt"
 	"time"
 
-	"wsapp/appstate"
-	waBinary "wsapp/binary"
-	waProto "wsapp/binary/proto"
-	"wsapp/store"
-	"wsapp/types"
-	"wsapp/types/events"
+	"github.com/snaril/wsapp/appstate"
+	waBinary "github.com/snaril/wsapp/binary"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	"github.com/snaril/wsapp/store"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
 )
 
 // FetchAppState fetches updates to the given type of app state. If fullSync is true, the current

@@ -11,9 +11,9 @@ import (
 	"encoding/base64"
 	"sync"
 
-	"wsapp/store"
-	"wsapp/util/hkdfutil"
-	waLog "wsapp/util/log"
+	"github.com/snaril/wsapp/store"
+	"github.com/snaril/wsapp/util/hkdfutil"
+	waLog "github.com/snaril/wsapp/util/log"
 )
 
 // WAPatchName represents a type of app state patch.

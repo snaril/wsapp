@@ -13,7 +13,7 @@ import (
 
 	"go.mau.fi/util/jsontime"
 
-	waProto "wsapp/binary/proto"
+	waProto "github.com/snaril/wsapp/binary/proto"
 )
 
 type NewsletterVerificationState string

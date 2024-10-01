@@ -10,8 +10,8 @@ import (
 	"errors"
 	"fmt"
 
-	waBinary "wsapp/binary"
-	"wsapp/types"
+	waBinary "github.com/snaril/wsapp/binary"
+	"github.com/snaril/wsapp/types"
 )
 
 func (cli *Client) getBroadcastListParticipants(jid types.JID) ([]types.JID, error) {

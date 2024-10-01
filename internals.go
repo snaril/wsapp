@@ -11,8 +11,8 @@ import (
 
 	"go.mau.fi/libsignal/keys/prekey"
 
-	waBinary "wsapp/binary"
-	"wsapp/types"
+	waBinary "github.com/snaril/wsapp/binary"
+	"github.com/snaril/wsapp/types"
 )
 
 type DangerousInternalClient struct {

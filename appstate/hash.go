@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"hash"
 
-	"wsapp/appstate/lthash"
-	waProto "wsapp/binary/proto"
+	"github.com/snaril/wsapp/appstate/lthash"
+	waProto "github.com/snaril/wsapp/binary/proto"
 )
 
 type Mutation struct {

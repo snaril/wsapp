@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"strings"
 
-	waBinary "wsapp/binary"
-	"wsapp/types"
-	"wsapp/types/events"
+	waBinary "github.com/snaril/wsapp/binary"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
 )
 
 const InviteLinkPrefix = "https://chat.whatsapp.com/"

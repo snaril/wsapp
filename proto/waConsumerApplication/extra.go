@@ -1,8 +1,8 @@
 package waConsumerApplication
 
 import (
-	"wsapp/proto/armadilloutil"
-	"wsapp/proto/waMediaTransport"
+	"github.com/snaril/wsapp/proto/armadilloutil"
+	"github.com/snaril/wsapp/proto/waMediaTransport"
 )
 
 type ConsumerApplication_Content_Content = isConsumerApplication_Content_Content

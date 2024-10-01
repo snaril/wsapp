@@ -20,8 +20,8 @@ import (
 	"go.mau.fi/util/fallocate"
 	"go.mau.fi/util/retryafter"
 
-	"wsapp/proto/waMediaTransport"
-	"wsapp/util/cbcutil"
+	"github.com/snaril/wsapp/proto/waMediaTransport"
+	"github.com/snaril/wsapp/util/cbcutil"
 )
 
 type File interface {

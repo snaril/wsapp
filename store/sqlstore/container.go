@@ -15,11 +15,11 @@ import (
 	"github.com/google/uuid"
 	"go.mau.fi/util/random"
 
-	waProto "wsapp/binary/proto"
-	"wsapp/store"
-	"wsapp/types"
-	"wsapp/util/keys"
-	waLog "wsapp/util/log"
+	waProto "github.com/snaril/wsapp/binary/proto"
+	"github.com/snaril/wsapp/store"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/util/keys"
+	waLog "github.com/snaril/wsapp/util/log"
 )
 
 // Container is a wrapper for a SQL database that can contain multiple whatsmeow sessions.

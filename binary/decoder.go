@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"wsapp/binary/token"
-	"wsapp/types"
+	"github.com/snaril/wsapp/binary/token"
+	"github.com/snaril/wsapp/types"
 )
 
 type binaryDecoder struct {

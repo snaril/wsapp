@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"wsapp/store"
-	"wsapp/types"
-	"wsapp/util/keys"
+	"github.com/snaril/wsapp/store"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/util/keys"
 )
 
 // ErrInvalidLength is returned by some database getters if the database returned a byte array with an unexpected length.

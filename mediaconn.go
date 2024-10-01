@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	waBinary "wsapp/binary"
-	"wsapp/types"
+	waBinary "github.com/snaril/wsapp/binary"
+	"github.com/snaril/wsapp/types"
 )
 
 //type MediaConnIP struct {

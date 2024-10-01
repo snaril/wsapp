@@ -1,4 +1,4 @@
-module wsapp
+module github.com/snaril/wsapp
 
 go 1.23.1
 

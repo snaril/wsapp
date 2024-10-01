@@ -11,8 +11,8 @@ import (
 	"math/rand"
 	"time"
 
-	"wsapp/types"
-	"wsapp/types/events"
+	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/types/events"
 )
 
 var (
