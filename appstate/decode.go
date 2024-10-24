@@ -14,10 +14,10 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	waBinary "github.com/snaril/wsapp/binary"
-	waProto "github.com/snaril/wsapp/binary/proto"
-	"github.com/snaril/wsapp/store"
-	"github.com/snaril/wsapp/util/cbcutil"
+	waBinary "github.com/snaril/wsapp/v2/binary"
+	waProto "github.com/snaril/wsapp/v2/binary/proto"
+	"github.com/snaril/wsapp/v2/store"
+	"github.com/snaril/wsapp/v2/util/cbcutil"
 )
 
 // PatchList represents a decoded response to getting app state patches from the WhatsApp servers.

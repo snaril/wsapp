@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/snaril/wsapp/types/events"
-	waLog "github.com/snaril/wsapp/util/log"
+	"github.com/snaril/wsapp/v2/types/events"
+	waLog "github.com/snaril/wsapp/v2/util/log"
 )
 
 type QRChannelItem struct {

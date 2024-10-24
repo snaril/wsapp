@@ -13,10 +13,10 @@ import (
 
 	"github.com/google/uuid"
 
-	waProto "github.com/snaril/wsapp/binary/proto"
-	"github.com/snaril/wsapp/types"
-	"github.com/snaril/wsapp/util/keys"
-	waLog "github.com/snaril/wsapp/util/log"
+	waProto "github.com/snaril/wsapp/v2/binary/proto"
+	"github.com/snaril/wsapp/v2/types"
+	"github.com/snaril/wsapp/v2/util/keys"
+	waLog "github.com/snaril/wsapp/v2/util/log"
 )
 
 type IdentityStore interface {

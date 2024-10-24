@@ -15,7 +15,7 @@ import (
 	"go.mau.fi/libsignal/state/record"
 	"go.mau.fi/libsignal/state/store"
 
-	"github.com/snaril/wsapp/util/keys"
+	"github.com/snaril/wsapp/v2/util/keys"
 )
 
 var SignalProtobufSerializer = serialize.NewProtoBufSerializer()

@@ -2,10 +2,10 @@ package mysqlstore
 
 import (
 	"github.com/gogf/gf/v2/database/gdb"
-	"github.com/snaril/wsapp/store"
-	"github.com/snaril/wsapp/types"
-	"github.com/snaril/wsapp/util/keys"
-	waLog "github.com/snaril/wsapp/util/log"
+	"github.com/snaril/wsapp/v2/store"
+	"github.com/snaril/wsapp/v2/types"
+	"github.com/snaril/wsapp/v2/util/keys"
+	waLog "github.com/snaril/wsapp/v2/util/log"
 	"go.mau.fi/util/random"
 	"math/rand"
 )

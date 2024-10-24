@@ -3,10 +3,10 @@ package armadillo
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/snaril/wsapp/proto/waArmadilloApplication"
-	"github.com/snaril/wsapp/proto/waCommon"
-	"github.com/snaril/wsapp/proto/waConsumerApplication"
-	"github.com/snaril/wsapp/proto/waMultiDevice"
+	"github.com/snaril/wsapp/v2/proto/waArmadilloApplication"
+	"github.com/snaril/wsapp/v2/proto/waCommon"
+	"github.com/snaril/wsapp/v2/proto/waConsumerApplication"
+	"github.com/snaril/wsapp/v2/proto/waMultiDevice"
 )
 
 type MessageApplicationSub interface {

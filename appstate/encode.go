@@ -8,9 +8,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	waProto "github.com/snaril/wsapp/binary/proto"
-	"github.com/snaril/wsapp/types"
-	"github.com/snaril/wsapp/util/cbcutil"
+	waProto "github.com/snaril/wsapp/v2/binary/proto"
+	"github.com/snaril/wsapp/v2/types"
+	"github.com/snaril/wsapp/v2/util/cbcutil"
 )
 
 // MutationInfo contains information about a single mutation to the app state.

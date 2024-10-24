@@ -17,9 +17,9 @@ import (
 	"go.mau.fi/libsignal/keys/prekey"
 	"go.mau.fi/libsignal/util/optional"
 
-	waBinary "github.com/snaril/wsapp/binary"
-	"github.com/snaril/wsapp/types"
-	"github.com/snaril/wsapp/util/keys"
+	waBinary "github.com/snaril/wsapp/v2/binary"
+	"github.com/snaril/wsapp/v2/types"
+	"github.com/snaril/wsapp/v2/util/keys"
 )
 
 const (

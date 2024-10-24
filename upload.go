@@ -21,8 +21,8 @@ import (
 
 	"go.mau.fi/util/random"
 
-	"github.com/snaril/wsapp/socket"
-	"github.com/snaril/wsapp/util/cbcutil"
+	"github.com/snaril/wsapp/v2/socket"
+	"github.com/snaril/wsapp/v2/util/cbcutil"
 )
 
 // UploadResponse contains the data from the attachment upload, which can be put into a message to send the attachment.

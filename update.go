@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/snaril/wsapp/socket"
-	"github.com/snaril/wsapp/store"
+	"github.com/snaril/wsapp/v2/socket"
+	"github.com/snaril/wsapp/v2/store"
 )
 
 var clientVersionRegex = regexp.MustCompile(`"client_revision":(\d+),`)

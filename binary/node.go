@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/v2/types"
 )
 
 // Attrs is a type alias for the attributes of an XML element (Node).

@@ -13,10 +13,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/snaril/wsapp"
-	"github.com/snaril/wsapp/store/sqlstore"
-	"github.com/snaril/wsapp/types/events"
-	waLog "github.com/snaril/wsapp/util/log"
+	"github.com/snaril/wsapp/v2"
+	"github.com/snaril/wsapp/v2/store/sqlstore"
+	"github.com/snaril/wsapp/v2/types/events"
+	waLog "github.com/snaril/wsapp/v2/util/log"
 )
 
 func eventHandler(evt interface{}) {

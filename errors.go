@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"net/http"
 
-	waBinary "github.com/snaril/wsapp/binary"
+	waBinary "github.com/snaril/wsapp/v2/binary"
 )
 
 // Miscellaneous errors

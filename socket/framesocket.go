@@ -16,7 +16,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	waLog "github.com/snaril/wsapp/util/log"
+	waLog "github.com/snaril/wsapp/v2/util/log"
 )
 
 type FrameSocket struct {

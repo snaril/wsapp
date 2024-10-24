@@ -11,12 +11,12 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	armadillo "github.com/snaril/wsapp/proto"
-	"github.com/snaril/wsapp/proto/waCommon"
-	"github.com/snaril/wsapp/proto/waMsgApplication"
-	"github.com/snaril/wsapp/proto/waMsgTransport"
-	"github.com/snaril/wsapp/types"
-	"github.com/snaril/wsapp/types/events"
+	armadillo "github.com/snaril/wsapp/v2/proto"
+	"github.com/snaril/wsapp/v2/proto/waCommon"
+	"github.com/snaril/wsapp/v2/proto/waMsgApplication"
+	"github.com/snaril/wsapp/v2/proto/waMsgTransport"
+	"github.com/snaril/wsapp/v2/types"
+	"github.com/snaril/wsapp/v2/types/events"
 )
 
 func (cli *Client) handleDecryptedArmadillo(info *types.MessageInfo, decrypted []byte, retryCount int) bool {

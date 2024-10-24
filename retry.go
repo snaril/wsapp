@@ -20,14 +20,14 @@ import (
 	"go.mau.fi/libsignal/protocol"
 	"google.golang.org/protobuf/proto"
 
-	waBinary "github.com/snaril/wsapp/binary"
-	waProto "github.com/snaril/wsapp/binary/proto"
-	"github.com/snaril/wsapp/proto/waCommon"
-	"github.com/snaril/wsapp/proto/waConsumerApplication"
-	"github.com/snaril/wsapp/proto/waMsgApplication"
-	"github.com/snaril/wsapp/proto/waMsgTransport"
-	"github.com/snaril/wsapp/types"
-	"github.com/snaril/wsapp/types/events"
+	waBinary "github.com/snaril/wsapp/v2/binary"
+	waProto "github.com/snaril/wsapp/v2/binary/proto"
+	"github.com/snaril/wsapp/v2/proto/waCommon"
+	"github.com/snaril/wsapp/v2/proto/waConsumerApplication"
+	"github.com/snaril/wsapp/v2/proto/waMsgApplication"
+	"github.com/snaril/wsapp/v2/proto/waMsgTransport"
+	"github.com/snaril/wsapp/v2/types"
+	"github.com/snaril/wsapp/v2/types/events"
 )
 
 // Number of sent messages to cache in memory for handling retry receipts.

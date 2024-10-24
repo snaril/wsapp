@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/snaril/wsapp/types"
+	"github.com/snaril/wsapp/v2/types"
 )
 
 // AttrUtility is a helper struct for reading multiple XML attributes and checking for errors afterwards.

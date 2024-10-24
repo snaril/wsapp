@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	waBinary "github.com/snaril/wsapp/binary"
-	"github.com/snaril/wsapp/types"
+	waBinary "github.com/snaril/wsapp/v2/binary"
+	"github.com/snaril/wsapp/v2/types"
 )
 
 // NewsletterSubscribeLiveUpdates subscribes to receive live updates from a WhatsApp channel temporarily (for the duration returned).

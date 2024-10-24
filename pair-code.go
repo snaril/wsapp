@@ -20,10 +20,10 @@ import (
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/pbkdf2"
 
-	waBinary "github.com/snaril/wsapp/binary"
-	"github.com/snaril/wsapp/types"
-	"github.com/snaril/wsapp/util/hkdfutil"
-	"github.com/snaril/wsapp/util/keys"
+	waBinary "github.com/snaril/wsapp/v2/binary"
+	"github.com/snaril/wsapp/v2/types"
+	"github.com/snaril/wsapp/v2/util/hkdfutil"
+	"github.com/snaril/wsapp/v2/util/keys"
 )
 
 // PairClientType is the type of client to use with PairCode.

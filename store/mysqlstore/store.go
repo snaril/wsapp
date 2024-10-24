@@ -2,9 +2,9 @@ package mysqlstore
 
 import (
 	"fmt"
-	"github.com/snaril/wsapp/store"
-	"github.com/snaril/wsapp/types"
-	"github.com/snaril/wsapp/util/keys"
+	"github.com/snaril/wsapp/v2/store"
+	"github.com/snaril/wsapp/v2/types"
+	"github.com/snaril/wsapp/v2/util/keys"
 	"sync"
 	"time"
 )

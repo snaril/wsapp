@@ -7,8 +7,8 @@
 package events
 
 import (
-	waBinary "github.com/snaril/wsapp/binary"
-	"github.com/snaril/wsapp/types"
+	waBinary "github.com/snaril/wsapp/v2/binary"
+	"github.com/snaril/wsapp/v2/types"
 )
 
 // CallOffer is emitted when the user receives a call on WhatsApp.
