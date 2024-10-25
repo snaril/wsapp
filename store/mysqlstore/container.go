@@ -19,6 +19,17 @@ type Container struct {
 	DatabaseErrorHandler func(device *store.Device, action string, attemptIndex int, err error) (retry bool)
 }
 
+var _ store.DeviceContainer = (*Container)(nil)
+
+func New(db gdb.DB, log waLog.Logger) (*Container, error) {
+	container := &Container{
+		db:  db,
+		log: log,
+	}
+
+	return container, nil
+}
+
 func (c *Container) NewDevice() *store.Device {
 	device := &store.Device{
 		Log:       c.log,
