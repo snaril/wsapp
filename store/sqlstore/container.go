@@ -22,6 +22,7 @@ import (
 	waLog "github.com/snaril/wsapp/v2/util/log"
 )
 
+// v2.0.2
 // Container is a wrapper for a SQL database that can contain multiple whatsmeow sessions.
 type Container struct {
 	db      *sql.DB
